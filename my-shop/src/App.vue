@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router';
 <template>
   <v-toolbar color="green">
     <v-tab to="/">Home</v-tab>
-    <v-tab to="/about">About</v-tab>
+    <v-tab to="/about">Products</v-tab>
     <v-tab to="/services">Services</v-tab>
     <v-tab to="/">Contacts</v-tab>
     <v-tab to="/">Login</v-tab>
