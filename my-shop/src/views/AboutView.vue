@@ -75,8 +75,8 @@ function removeAllItems() {
             <v-card-title>{{ item.name }}</v-card-title>
             <v-card-subtitle>{{ item.description }}</v-card-subtitle>
             <v-card-actions>
-              <v-btn color="blue" @click="addToCart(item)">Add to Cart</v-btn>
-              <v-btn color="blue" @click="removeFromCart(item)">Remove from Cart</v-btn>
+              <v-btn color="green" @click="addToCart(item)">Add to Cart</v-btn>
+              <v-btn color="green" @click="removeFromCart(item)">Remove from Cart</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -98,17 +98,14 @@ function removeAllItems() {
             max-width="350"
           >
             <v-card-title>{{ cartItem.name }} ({{ cartItem.quantity }})</v-card-title>
-            <v-card-actions>
-              <v-btn color="blue" @click="removeFromCart(cartItem)">Remove One</v-btn>
-            </v-card-actions>
           </v-card>
         </v-col>
       </v-row>
 
       <v-row class="mt-4">
         <v-col cols="12" class="text-center">
-          <v-btn color="blue" class="custom-btn" @click="buyItems">Buy</v-btn>
-          <v-btn color="blue" class="custom-btn" @click="removeAllItems">Remove All</v-btn>
+          <v-btn color="green" class="custom-btn" @click="buyItems">Buy</v-btn>
+          <v-btn color="green" class="custom-btn" @click="removeAllItems">Remove All</v-btn>
         </v-col>
       </v-row>
     </v-card-text>
