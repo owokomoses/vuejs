@@ -71,7 +71,7 @@ function removeAllItems() {
             color="light"
             max-width="350"
           >
-            <v-img :src="item.image" height="150px" width="100%" class="mt-3"</v-img>
+            <v-img :src="item.image" height="150px" width="100%" class="mt-3"></v-img>
             <v-card-title>{{ item.name }}</v-card-title>
             <v-card-subtitle>{{ item.description }}</v-card-subtitle>
             <v-card-actions>
@@ -99,6 +99,7 @@ function removeAllItems() {
           >
             <v-card-title>{{ cartItem.name }} ({{ cartItem.quantity }})</v-card-title>
           </v-card>
+
         </v-col>
       </v-row>
 

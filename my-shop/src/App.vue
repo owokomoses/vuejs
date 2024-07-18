@@ -8,8 +8,9 @@ import { RouterLink, RouterView } from 'vue-router';
     <v-tab to="/about">Products</v-tab>
     <v-tab to="/services">Services</v-tab>
     <v-tab to="/">Contacts</v-tab>
-    <v-tab to="/">Login</v-tab>
+    <v-tab to="/login">Login</v-tab>
     <v-tab to="/signup">Signup</v-tab>
+    <v-tab to="/dashboard">Dashboard</v-tab>
   </v-toolbar>
   <RouterView/>
 </template>
